@@ -1,0 +1,32 @@
+@font-face {
+    font-family: Consolas;
+    src: url('fonts/Consolas-Font/Consolas.ttf');
+}
+
+h1,h2{
+    text-align: center;
+}
+
+table{
+    margin: 0 auto;
+    width: 80%;
+}
+
+table,th,td{
+    border: 1px solid #272343;
+}
+
+th,td{
+    padding-right: 10px;
+}
+
+th{
+    background-color: #bae8e8;
+}
+
+tr td:first-child{
+    font-family: Consolas, serif;
+    background-color: #ddd;
+    color: #111;
+    padding: 0 10px;
+}
